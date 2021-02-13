@@ -1,6 +1,6 @@
 from scrapy.crawler import CrawlerProcess
 from scrapy.settings import Settings
-from gb_parse.spiders.autoyoula import AutoyoulaSpider
+from gb_parse.spiders.headhunter import HeadhunterSpider
 
 
 if __name__ == "__main__":

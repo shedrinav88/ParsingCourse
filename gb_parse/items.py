@@ -11,6 +11,7 @@ class GbParseItem(scrapy.Item):
     # name = scrapy.Field()
     pass
 
+
 class HeadhunterItem(scrapy.Item):
     _id = scrapy.Field()
     url = scrapy.Field()
@@ -19,7 +20,15 @@ class HeadhunterItem(scrapy.Item):
     description = scrapy.Field()
     skills = scrapy.Field()
     author_url = scrapy.Field()
-    company_title = scrapy.Field()
-    company_link = scrapy.Field()
+
+
+class CompanyHeadhunterItem(scrapy.Item):
+    _id = scrapy.Field()
+    url = scrapy.Field()
+    company_name = scrapy.Field()
+    site_url = scrapy.Field()
     activity_areas = scrapy.Field()
-    company_description = scrapy.Field()
+    description = scrapy.Field()
+
+
+
