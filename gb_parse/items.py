@@ -31,4 +31,22 @@ class CompanyHeadhunterItem(scrapy.Item):
     description = scrapy.Field()
 
 
+class  InstaTagItem(scrapy.Item):
+    _id = scrapy.Field()
+    date_parse = scrapy.Field()
+    data = scrapy.Field()
+    images = scrapy.Field()
+
+
+class InstagramPostItem(scrapy.Item):
+    _id = scrapy.Field()
+    date_parse = scrapy.Field()
+    data = scrapy.Field()
+    images = scrapy.Field()
+
+
+
+
+
+
 
